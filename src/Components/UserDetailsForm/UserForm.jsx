@@ -113,15 +113,15 @@ const UserDetailsForm = ({ placemarks, position }) => {
         </div>
 
         {/* Submit */}
-        <div>
+        <div className=''>
         <button
   type="submit"
-  className="w-full py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 
-    bg-black text-white dark:bg-white dark:text-black 
-    hover:bg-gray-800 dark:hover:bg-gray-200"
+  className="w-full py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 
+    bg-blue-500 hover:bg-blue-600 dark:bg-blue-700 dark:hover:bg-blue-600"
 >
   Submit
 </button>
+
 
         </div>
       </form>
