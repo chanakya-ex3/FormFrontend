@@ -1,14 +1,14 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import tailwindcss from '@tailwindcss/vite'
-import pwa from 'vite-plugin-pwa' // Import the PWA plugin
+import { VitePWA } from 'vite-plugin-pwa' // Correct import for VitePWA
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    pwa({
+    VitePWA({
       registerType: 'autoUpdate',
       manifest: {
         name: 'Your App Name',
@@ -17,7 +17,7 @@ export default defineConfig({
         theme_color: '#ffffff', // Background color
         icons: [
           {
-            src: '/vite.svg',
+            src: '/vite.svg', // Icon path relative to /public directory
             sizes: '192x192',
             type: 'image/png',
           },
