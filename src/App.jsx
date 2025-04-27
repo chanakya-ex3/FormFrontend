@@ -5,6 +5,7 @@ import UserDetailsForm from './Components/UserDetailsForm/UserForm'; // Import U
 import DynamicForm from './Components/FormComponent/Form'; // Import DynamicForm component
 import { getKey, setKey, deleteKeys } from './localstorage/localstorage'; // Utility functions to handle local storage
 import { getCurrentLocation } from './location/locationService'; // Service to fetch location
+import Dashboard from './Components/Dashboard/Dashboard';
 
 const App = () => {
   const [name, setName] = useState(null);
@@ -90,7 +91,7 @@ const App = () => {
               )
             }
           />
-          <Route path="/form" element={<DynamicForm placemarks={placemarks} position={position} />} />
+          <Route path="/view-details" element={<Dashboard  />} />
         </Routes>
       </div>
     </Router>
