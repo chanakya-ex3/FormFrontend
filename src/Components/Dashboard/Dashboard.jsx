@@ -29,7 +29,7 @@ const Dashboard = () => {
     return (
         <div className="min-h-screen">
             {localStorage.getItem('token') ? (
-                <div>
+                <div >
                     {/* App Bar */}
                     <div className="fixed top-0 left-0 right-0 p-4 bg-violet-400 shadow-md flex justify-between items-center z-50">
                         <p className="font-bold text-white">Form App</p>
