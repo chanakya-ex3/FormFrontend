@@ -8,6 +8,7 @@ export default function Login() {
   const apiUrl = import.meta.env.VITE_API_URL;
 
   const handleSubmit = async (e) => {
+    console.log('API URL:', import.meta.env.VITE_API_URL);
     e.preventDefault();
     setError("");
 
