@@ -42,7 +42,7 @@ const Dashboard = () => {
                     <div className="h-[70px]" />
 
                     {/* Content */}
-                    <div className="w-[100vw] max-w-6xl mx-auto px-4">
+                    <div className="w-[100vw] max-w-6xl mx-auto px-4 ">
                         <DashboardData />
                     </div>
                 </div>
