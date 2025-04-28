@@ -8,7 +8,6 @@ export default function Login() {
   const apiUrl = import.meta.env.VITE_API_URL;
 
   const handleSubmit = async (e) => {
-    console.log('API URL:', import.meta.env.VITE_API_URL);
     e.preventDefault();
     setError("");
 
@@ -28,7 +27,6 @@ export default function Login() {
 
       const data = await response.json();
       const token = data.token; // expecting { token: "..." }
-      console.log("Token:", token);
       localStorage.setItem("token", token);
       alert("Login Successful!");
       window.location.reload(); // Reload the page to reflect the login state
