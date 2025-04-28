@@ -19,7 +19,6 @@ export default function DashboardData() {
         `${apiUrl}data?startDate=${startDate.toISOString()}&endDate=${endDate.toISOString()}`,
         {
           headers: {
-            'ngrok-skip-browser-warning': 'true',
             Authorization: `${localStorage.getItem("token")}`,
           },
         }
@@ -78,7 +77,6 @@ export default function DashboardData() {
         `${apiUrl}data/download?startDate=${startDate.toISOString()}&endDate=${endDate.toISOString()}`,
         {
           headers: {
-            'ngrok-skip-browser-warning': 'true',
             Authorization: `${localStorage.getItem("token")}`,
           },
         }
