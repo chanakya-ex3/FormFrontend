@@ -6216,7 +6216,7 @@ const formData = {
           "Preventive Maintenance",
           "Preventive Maintenance Audit",
         ],
-        "values": ["Orange","Airtel","Vodacom"],
+        "values": ["Orange","Airtel","Vodacom","Others"],
       },
       {
         "label": "Tenant 2 name",
@@ -6229,7 +6229,7 @@ const formData = {
           "Preventive Maintenance",
           "Preventive Maintenance Audit",
         ],
-        "values": ["Orange","Airtel","Vodacom"],
+        "values": ["Orange","Airtel","Vodacom","Others"],
       },
       {
         "label": "Tenant 3 name",
@@ -6242,7 +6242,7 @@ const formData = {
           "Preventive Maintenance",
           "Preventive Maintenance Audit",
         ],
-        "values": ["Orange","Airtel","Vodacom"],
+        "values": ["Orange","Airtel","Vodacom","Others"],
       },
       {
         "label": "Tenant 4 name",
@@ -6255,7 +6255,7 @@ const formData = {
           "Preventive Maintenance",
           "Preventive Maintenance Audit",
         ],
-        "values": ["Orange","Airtel","Vodacom"],
+        "values": ["Orange","Airtel","Vodacom","Others"],
       },
       {
         "label": "Tenant Load 1",
