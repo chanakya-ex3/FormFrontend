@@ -6101,7 +6101,7 @@ const formData = {
         "values": ["Yes", "No"],
       },
       {
-        "label": "Alarms krone / tag block image",
+        "label": "Alarms krone / tag block",
         "photoRequired": true,
         "type": "NA",
         "textType": null,
