@@ -6562,15 +6562,15 @@ const formData = {
       {
         "label": "Rectifier modules capacity(kW)",
         "photoRequired": true,
-        "type": "TextField",
-        "textType": "numeric",
+        "type": "Dropdown",
+        "textType": "text",
         "id": "rectifierModulesCapacity",
         "roles": [
           "Project",
           "Preventive Maintenance",
           "Preventive Maintenance Audit",
         ],
-        "values": [],
+        "values": ["12","24","36","Others"],
       },
       {
         "label": "Battery type(Manfacturer)",
