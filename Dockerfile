@@ -12,7 +12,8 @@ RUN npm install
 COPY . .
 
 # Set environment variables for the build process
-ENV VITE_API_URL="http://localhost:3000/"
+ENV VITE_API_URL="http://localhost:3000/" 
+#Enter the backend URL Here
 
 # Build the app
 RUN npm run build

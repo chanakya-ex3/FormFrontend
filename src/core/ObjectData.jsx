@@ -6648,15 +6648,48 @@ const formData = {
     ],
     "Visual Checks": [
       {
-        "label": "Tower Foundation",
+        "label": "Tower Foundation 1",
         "photoRequired": true,
-        "type": "TextField",
-        "textType": "alphanumeric",
-        "id": "towerFoundation",
+        "type": "NA",
+        "textType": null,
+        "id": "towerFoundation1",
         "roles": [
           "Project",
           "Preventive Maintenance",
           "Preventive Maintenance Audit",
+        ],
+        "values": [],
+      },
+      {
+        "label": "Tower Foundation 2",
+        "photoRequired": true,
+        "type": "NA",
+        "textType": null,
+        "id": "towerFoundation2",
+        "roles": [
+          "Preventive Maintenance",
+        ],
+        "values": [],
+      },
+      {
+        "label": "Tower Foundation 3",
+        "photoRequired": true,
+        "type": "NA",
+        "textType": null,
+        "id": "towerFoundation3",
+        "roles": [
+          "Preventive Maintenance",
+        ],
+        "values": [],
+      },
+      {
+        "label": "Tower Foundation 4",
+        "photoRequired": true,
+        "type": "NA",
+        "textType": null,
+        "id": "towerFoundation4",
+        "roles": [
+          "Preventive Maintenance",
         ],
         "values": [],
       },
@@ -6668,7 +6701,6 @@ const formData = {
         "id": "gensetFoundation",
         "roles": [
           "Project",
-          "Preventive Maintenance",
           "Preventive Maintenance Audit",
         ],
         "values": [],
@@ -6701,7 +6733,7 @@ const formData = {
         "values": [],
       },
       {
-        "label": "Gate",
+        "label": "Site Gate",
         "photoRequired": true,
         "type": "TextField",
         "textType": "alphanumeric",
@@ -6719,7 +6751,7 @@ const formData = {
         "type": "TextField",
         "textType": "alphanumeric",
         "id": "visibilityConditionOfEarthingPits",
-        "roles": ["Project", "Preventive Maintenance Audit"],
+        "roles": ["Project", "Preventive Maintenance","Preventive Maintenance Audit"],
         "values": [],
       },
       {
@@ -6737,7 +6769,7 @@ const formData = {
         "type": "TextField",
         "textType": "alphanumeric",
         "id": "electricalCondition",
-        "roles": ["Project"],
+        "roles": ["Project","Preventive Maintenance Audit"],
         "values": [],
       },
       {
@@ -6849,6 +6881,18 @@ const formData = {
         "textType": null,
         "id": "siteJanotorial6",
         "roles": ["Project", "Preventive Maintenance"],
+        "values": [],
+      },
+      {
+        "label": "Security Guard Room/ Window",
+        "photoRequired": true,
+        "type": "NA",
+        "textType": null,
+        "id": "securityGuardRoomWindow",
+        "roles": [
+          "Project",
+          "Preventive Maintenance",
+        ],
         "values": [],
       },
       {
