@@ -21,11 +21,13 @@ RUN npm run build
 # Step 2: Serve the app using a lightweight server (Nginx)
 FROM nginx:alpine
 
+# Copy custom nginx config
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 # Copy the built app from the build stage
 COPY --from=build /app/dist /usr/share/nginx/html
 
 # Expose the port the app will run on
 EXPOSE 80
 
-# Run Nginx in the foreground
 CMD ["nginx", "-g", "daemon off;"]
