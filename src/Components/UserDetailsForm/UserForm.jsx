@@ -77,6 +77,7 @@ const UserDetailsForm = ({ placemarks, position }) => {
           <input
             type="text"
             value={location}
+            disabled
             onChange={(e) => setLocation(e.target.value)}
             placeholder="Enter your location"
             className="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"

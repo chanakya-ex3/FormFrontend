@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaSearch, FaTimes } from 'react-icons/fa';
 
-const FieldComponent = ({ field, onChanged, validator, value, initialValue }) => {
+const FieldComponent = ({ field, onChanged, validator, value, initialValue, disabled }) => {
   const [selectedValue, setSelectedValue] = useState(initialValue?.value || '');
   const [selectedImage, setSelectedImage] = useState(initialValue?.image || null);
   const [base64Image, setBase64Image] = useState(initialValue?.base64 || null);
@@ -65,6 +65,7 @@ const FieldComponent = ({ field, onChanged, validator, value, initialValue }) =>
           <input
             type={field.textType === 'numeric' ? 'number' : 'text'}
             value={selectedValue || ''}
+            disabled={disabled}
             onChange={handleTextChange}
             placeholder={`Enter ${field.label}`}
             className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-xl bg-white dark:bg-gray-800 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
@@ -102,6 +103,7 @@ const FieldComponent = ({ field, onChanged, validator, value, initialValue }) =>
                 <input
                   type="text"
                   value={selectedValue}
+                  disabled={disabled}
                   onChange={(e) => {
                     const val = e.target.value;
                     setSelectedValue(val);

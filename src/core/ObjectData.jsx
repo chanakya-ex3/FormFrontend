@@ -5855,6 +5855,8 @@ const formData = {
         "type": "Dropdown",
         "textType": null,
         "id": "siteName",
+        "required":true,
+        "disabled":true,
         "roles": [
           'Project',
           'Preventive Maintenance',
@@ -5869,6 +5871,8 @@ const formData = {
         "type": "Dropdown",
         "textType": null,
         "id": "cityTown",
+        "required":true,
+        "disabled":true,
         "roles": [
           'Project',
           'Preventive Maintenance',
@@ -5883,6 +5887,8 @@ const formData = {
         "type": "Dropdown",
         "textType": null,
         "id": "region",
+        "required":true,
+        "disabled":true,
         "roles": [
           'Project',
           'Preventive Maintenance',
@@ -5897,6 +5903,8 @@ const formData = {
         "type": "TextField",
         "textType": "numeric",
         "id": "latitude",
+        "required":true,
+        "disabled":true,
         "locationRequired": 'latitude',
         "roles": [
           'Project',
@@ -5912,6 +5920,8 @@ const formData = {
         "type": "TextField",
         "textType": "numeric",
         "id": "longitude",
+        "disabled":true,
+        "required":true,
         "locationRequired": 'longitude',
         "roles": [
           'Project',

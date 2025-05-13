@@ -217,6 +217,7 @@ const DynamicForm = ({ placemarks, position }) => {
                     <FieldComponent
                       key={field.id}
                       field={field}
+                      disabled={field.disabled}
                       onChanged={handleFieldChange}
                       validator={(value) => {
                         console.log(field.required && !value);
