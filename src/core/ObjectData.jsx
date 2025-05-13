@@ -4649,6 +4649,111 @@
         "anchorSiteName": "Kayanza",
         "province": "Katanga",
         "city": "Tanganyika"
+    },
+    "CDKT00380": {
+        "anchorSiteName": "Lubumbashi_Bilonda2",
+        "province": "Katanga",
+        "city": "Lubumbashi"
+    },
+    "CDKN00284": {
+        "anchorSiteName": "Kin_Telecom_Chez tsh",
+        "province": "Kinshasa",
+        "city": "Kinshasa"
+    },
+    "CDBD00060": {
+        "anchorSiteName": "Kikwit_Cimetiere_Kazamba",
+        "province": "Kikwit",
+        "city": "Kwango"
+    },
+    "CDBD00061": {
+        "anchorSiteName": "Kikwit_OCPT_Nzinda2",
+        "province": "Kikwit",
+        "city": "Kwango"
+    },
+    "CDKN00292": {
+        "anchorSiteName": "Kin_Ndili_Brasseriesnzoku",
+        "province": "Kinshasa",
+        "city": "Kinshasa"
+    },
+    "CDKN00293": {
+        "anchorSiteName": "Kin_Ndjili_Bondeko_Q5",
+        "province": "Kinshasa",
+        "city": "Kinshasa"
+    },
+    "CDKN00294": {
+        "anchorSiteName": "Kinshasa_Decouverte_Chezmamie",
+        "province": "Kinshasa",
+        "city": "Kinshasa"
+    },
+    "CDKN00295": {
+        "anchorSiteName": "Sainte Thérèse",
+        "province": "Kinshasa",
+        "city": "Kinshasa"
+    },
+    "CDKN00297": {
+        "anchorSiteName": "Kinshasa_Nzungu_Ntumba",
+        "province": "Kinshasa",
+        "city": "Kinshasa"
+    },
+    "CDKT00374": {
+        "anchorSiteName": "Lub_Riverside",
+        "province": "Katanga",
+        "city": "Lubumbashi"
+    },
+    "CDKT00390": {
+        "anchorSiteName": "Kol_Institut_Mutoshi2",
+        "province": "Katanga",
+        "city": "Kolwezi"
+    },
+    "CDKT00392": {
+        "anchorSiteName": "Kol_Lachapelle_Meya",
+        "province": "Katanga",
+        "city": "Kolwezi"
+    },
+    "CDKT00394": {
+        "anchorSiteName": "Kol_Puis_Vax",
+        "province": "Katanga",
+        "city": "Kolwezi"
+    },
+    "CDKT00395": {
+        "anchorSiteName": "Kol_Gecamines_Nkupa",
+        "province": "Katanga",
+        "city": "Kolwezi"
+    },
+    "CDKT00397": {
+        "anchorSiteName": "Kolwezi_RKof_Mutoshi",
+        "province": "Katanga",
+        "city": "Kolwezi"
+    },
+    "CDKT00398": {
+        "anchorSiteName": "Kolwezi_Omokoko_Charité",
+        "province": "Katanga",
+        "city": "Kolwezi"
+    },
+    "CDKT00399": {
+        "anchorSiteName": "Kolwezi_Bopore",
+        "province": "Katanga",
+        "city": "Kolwezi"
+    },
+    "CDKT00400": {
+        "anchorSiteName": "Kol_kasulu_Carmat",
+        "province": "Katanga",
+        "city": "Kolwezi"
+    },
+    "CDKT00403": {
+        "anchorSiteName": "Kolwezi_Ngabudia",
+        "province": "Katanga",
+        "city": "Kolwezi"
+    },
+    "CDKT00409": {
+        "anchorSiteName": "Postolo",
+        "province": "Katanga",
+        "city": "Kolwezi"
+    },
+    "CDKN00298": {
+        "anchorSiteName": "Kinshasa_Lukaya",
+        "province": "Kinshasa",
+        "city": "Kinshasa"
     }
 }
   
@@ -6038,7 +6143,7 @@ const formData = {
         "values": ['Yes', 'No'],
       },
       {
-        "label": "Salary received for the month of?",
+        "label": "Last salary received for the month of?",
         "photoRequired": false,
         "type": "Dropdown",
         "textType": null,
@@ -6618,7 +6723,7 @@ const formData = {
         "values": [],
       },
       {
-        "label": "Earth Value(in M Ohm)",
+        "label": "Earth Value(in Ohm)",
         "photoRequired": true,
         "type": "TextField",
         "textType": "numeric",
@@ -6721,11 +6826,11 @@ const formData = {
         "values": [],
       },
       {
-        "label": "Total number of Microwaves",
+        "label": "Total number of Microwave antennae",
         "photoRequired": true,
         "type": "TextField",
         "textType": "numeric",
-        "id": "totalNumberOfMicrowaves",
+        "id": "totalNumberOfMicrowaveAntennae",
         "roles": ["Project", "Preventive Maintenance Audit"],
         "values": [],
       },
@@ -6848,7 +6953,7 @@ const formData = {
         "values": [],
       },
       {
-        "label": "Fibre Duct Availability",
+        "label": "Fibre availability on site?",
         "photoRequired": true,
         "type": "TextField",
         "textType": "alphanumeric",
