@@ -6685,7 +6685,7 @@ const formData = {
           "Preventive Maintenance",
           "Preventive Maintenance Audit",
         ],
-        "values": ["2","3","3.5","4","Others"],
+        "values": ["2","3","3.5","4"],
       },
       {
         "label": "Battery type(Manfacturer)",
